@@ -1,0 +1,56 @@
+/* Định dạng chung */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Tiêu đề trang */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Phần giới thiệu */
+.about, .members, .activities {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Danh sách thành viên */
+.members ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.members li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Hình ảnh hoạt động */
+.activities img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Chân trang */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
